@@ -1,0 +1,1 @@
+var guests=parseInt(prompt("Please enter the number of guests: ")),donuts=parseInt(prompt("Please enter the number of donuts: ")),alertMessage="There are ${guests} guests and ${donuts} donuts.";donuts<guests?(alertMessage+=" There are not enough donuts for the guests.",alert(alertMessage)):(alertMessage+=" There are enough donuts for the guests.",alert(alertMessage));
